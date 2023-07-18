@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     screens: {
       'sm': '320px',
-      'md': '375px',
+      'md': '375px', 
       'lg': '425px',
       'tablet': '768px',
       'laptop': '1024px',
@@ -21,6 +21,9 @@ module.exports = {
         boxborder: '#4D4D4D',
         bg: '#212027',
       },
+      backgroundImage: {
+        'neon': "url('../Assets/gif/home-ai.gif')"
+      }
     },
   },
   plugins: [],

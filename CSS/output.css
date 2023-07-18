@@ -645,8 +645,8 @@ video {
   right: 0px;
 }
 
-.top-\[64px\]{
-  top: 64px;
+.top-\[78px\]{
+  top: 78px;
 }
 
 .isolate{
@@ -804,8 +804,8 @@ video {
   height: 3px;
 }
 
-.w-1\/2{
-  width: 50%;
+.h-screen{
+  height: 100vh;
 }
 
 .w-\[15px\]{
@@ -822,6 +822,10 @@ video {
 
 .w-\[35px\]{
   width: 35px;
+}
+
+.w-\[40px\]{
+  width: 40px;
 }
 
 .w-full{
@@ -1664,10 +1668,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-md{
-  border-radius: 0.375rem;
-}
-
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1801,33 +1801,27 @@ video {
   border-color: rgba(120, 120, 120, 0.2);
 }
 
+.bg-\[\#0C0F16\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 15 22 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-box\/80{
   background-color: rgba(120, 120, 120, 0.8);
 }
 
-.bg-boxborder{
-  --tw-bg-opacity: 1;
-  background-color: rgb(77 77 77 / var(--tw-bg-opacity));
-}
-
-.bg-main{
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 13 224 / var(--tw-bg-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-neon{
+  background-image: url('../Assets/gif/home-ai.gif');
 }
 
 .decoration-slice{
@@ -1848,6 +1842,10 @@ video {
 .box-decoration-clone{
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover{
+  background-size: cover;
 }
 
 .bg-fixed{
@@ -1877,6 +1875,10 @@ video {
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center{
+  background-position: center;
 }
 
 .bg-repeat{
@@ -1948,18 +1950,13 @@ video {
      object-fit: scale-down;
 }
 
-.p-5{
-  padding: 1.25rem;
+.p-8{
+  padding: 2rem;
 }
 
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .py-4{
@@ -2544,14 +2541,6 @@ header.scrolled{
   }
 }
 
-.hover\:bg-boxborder\/60:hover{
-  background-color: rgb(77 77 77 / 0.6);
-}
-
-.hover\:bg-main\/60:hover{
-  background-color: rgb(80 13 224 / 0.6);
-}
-
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -2644,9 +2633,5 @@ header.scrolled{
 
   .laptop\:opacity-100{
     opacity: 1;
-  }
-
-  .laptop\:duration-100{
-    transition-duration: 100ms;
   }
 }
