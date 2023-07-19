@@ -30,9 +30,5 @@
 
 /* Scrolled Animation */
 header.scrolled {
-    @apply bg-box/95;
-}
-
-.navbar.scrolled {
-    @apply laptop:pl-32;
+    @apply bg-slate-800/95;
 }

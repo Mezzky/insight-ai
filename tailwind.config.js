@@ -17,12 +17,15 @@ module.exports = {
       colors: {
         box: 'rgba(120, 120, 120, 0.2)',
         text: '#FBFBFB',
+        span: '#4BA7D8',
         main: '#500DE0',
         boxborder: '#4D4D4D',
         bg: '#0C0F16',
       },
       backgroundImage: {
-        'neon': "url('../Assets/gif/home-img.gif')"
+        'home': "url('../Assets/gif/home-img.gif')",
+        'service': "url('../Assets/gif/service-bg.gif')",
+        'recognition': "url('../Assets/gif/bumi-mutars.gif')"
       }
     },
   },
