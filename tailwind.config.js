@@ -16,13 +16,13 @@ module.exports = {
       },
       colors: {
         box: 'rgba(120, 120, 120, 0.2)',
-        paragraf: '#787878',
+        text: '#FBFBFB',
         main: '#500DE0',
         boxborder: '#4D4D4D',
-        bg: '#212027',
+        bg: '#0C0F16',
       },
       backgroundImage: {
-        'neon': "url('../Assets/gif/home-ai.gif')"
+        'neon': "url('../Assets/gif/home-img.gif')"
       }
     },
   },

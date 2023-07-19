@@ -30,7 +30,7 @@
 
 /* Scrolled Animation */
 header.scrolled {
-    @apply mt-[20px] w-[90%] rounded-t-2xl bg-box/95;
+    @apply bg-box/95;
 }
 
 .navbar.scrolled {
