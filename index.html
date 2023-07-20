@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/1c6364f841.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="font-poppins">
+<body class="font-poppins bg-bg">
     <header
         class="bg-bg flex cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
         <a href="#" class="logo">
@@ -51,12 +51,13 @@
 
     <!-- HomePage -->
     <main>
-        <section class="bg-home bg-no-repeat bg-cover bg-center pt-28 pb-10 px-10" id="home">
+        <!-- Landing Section -->
+        <section class="bg-home bg-no-repeat bg-cover bg-center pt-28 pb-10 px-10 grid grid-cols-1 gap-8" id="home">
             <div class="content flex flex-col gap-5">
                 <h2 class="text-3xl text-text font-bold">INSIGHT AI Technology, Home of UAE’s best metaverse developers.</h2>
                 <p class="text-text">Providing different AR/VR/XR solutions customized for your business needs, best known for our designs and our latest technologies used. We Create custom apps that aretailored to your specific requirements. Contact us to start your business transformation.</p>
             </div>
-            <div class="content-2 mt-8 flex flex-col gap-3">
+            <div class="content-2 flex flex-col gap-3">
                 <div class="tittle flex flex-col gap-2">
                     <div class="sub-tittle flex gap-2">
                         <img src="./Assets/svg/bola.svg" alt="bolas">
@@ -74,13 +75,14 @@
             </div>
         </section>
 
-        <section id="service" class="bg-service bg-cover bg-no-repeat bg-center pt-3 pb-20 px-10">
+        <!-- Service Section -->
+        <section id="service" class="bg-service bg-cover bg-no-repeat bg-center pt-3 pb-20 px-10 grid grid-cols-1 gap-10">
             <div class="tittle flex flex-col gap-2">
                 <span class="text-span">OUR SERVICES</span>
                 <h2 class="text-3xl font-bold text-text">SERVICES</h2>
                 <p class="text-text">Looking for a web development partner that will help you take your business to the next level? Look no further than us! We provide a wide range of services and we are committed to helping our clients achieve their goals.</p>
             </div>
-            <div class="card-container grid grid-cols-1 mt-10 gap-10">
+            <div class="card-container grid grid-cols-1 gap-10">
                 <div class="card backdrop-blur-md flex flex-col border border-slate-300">
                     <div class="card-tittle flex items-center border-b border-slate-300">
                         <div class="img-icon p-5">
@@ -140,12 +142,13 @@
             </div>
         </section>
 
-        <section class="recognition bg-recognition bg-cover bg-no-repeat bg-center pt-3 pb-20 px-10">
+        <!-- Recognition Section -->
+        <section class="recognition bg-recognition bg-cover bg-no-repeat bg-center pt-3 pb-20 px-10 grid grid-cols-1 gap-5">
             <div class="tittle flex flex-col gap-5">
                 <h2 class="text-2xl text-text font-bold">MODERN TECHNOLOGY IN EVERYDAY LIFE</h2>
                 <p class="text-text">Allow us to introduce you to ways to leverage technology use in your business for a recognizeable strong brand. Including coding, design, projects management and AR/VR technologies.</p>
             </div>
-            <div class="content flex flex-col gap-5 mt-5">
+            <div class="content flex flex-col gap-5">
                 <div class="text">
                     <span class="text-span">RECOGNITION</span>
                     <h2 class="text-xl text-text font-bold">Recognized By</h2>
@@ -178,7 +181,110 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact Section -->
+        <section class="contact pt-3 pb-20 px-10 grid grid-cols-1 gap-10">
+            <div class="contact-tittle grid grid-cols-1 gap-10">
+                <div class="left flex flex-col gap-2">
+                    <span class="text-span">Let's Talk</span>
+                    <h2 class="text-2xl text-slate-500 font-bold">ABOUT YOUR <span class="text-text">NEXT PROJECT</span>.</h2>
+                </div>
+                <div class="btn">
+                    <a class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" href="">Get In Touch</a>
+                </div>
+            </div>
+            <div class="contact-content grid grid-cols-1 gap-10">
+                <div class="form-contact">
+                    <h3 class="text-xl text-text font-bold">Get Started</h3>
+                    <form class="flex flex-col gap-10" action="" autocomplete="off">
+                        <div class="input-box flex flex-col gap-5">
+                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="text" name="name" id="name" placeholder="Your Name">
+                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="email" name="email" id="email" placeholder="Your Email">
+                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="number" name="number" id="number" placeholder="Phone">
+                        </div>
+                        <div class="radio-box">
+                            <div class="radio-content">
+                                <input type="radio" name="app" id="app">
+                                <label class="text-text" for="app">Apps and websites</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="design" id="design">
+                                <label class="text-text" for="design">Design</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="web" id="web">
+                                <label class="text-text" for="web">Web 3.0 and Metaverse</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="tech" id="tech">
+                                <label class="text-text" for="tech">Tech Support Projects</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="other" id="other">
+                                <label class="text-text" for="other">Other</label>
+                            </div>
+                        </div>
+                        <div class="input-box flex flex-col gap-5">
+                            <label class="text-text font-bold" for="budget">YOUR BUDGET</label>
+                            <input ty class="bg-transparent border-b border-text px-5 py-2 text-text"pe="text" name="budget" id="budget" placeholder="ex: +$1000">
+                        </div>
+                        <div class="input-box flex flex-col gap-5">
+                            <label class="text-text font-bold" for="brief">BRIEF:</label>
+                            <textarea class="bg-transparent text-text p-2 border border-text" name="brief" id="brief" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" type="submit">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info flex flex-col gap-5">
+                    <h3 class="text-text font-bold text-xl">Contact Info.</h3>
+                    <img class="w-[50px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+                    <p class="text-text">&copy; Insight Artificial Inteligence</p>
+                    <div class="talk flex flex-col gap-2">
+                        <h4 class="text-text text-lg">LET'S TALK</h4>
+                        <p class="text-text">INFO@ELITEWORLD.TECH</p>
+                        <p class="text-text">+970 50 202 0942</p>
+                    </div>
+                    <div class="visit flex flex-col gap-2">
+                        <h4 class="text-text text-lg">VISIT US</h4>
+                        <p class="text-text">Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
+                    </div>
+                    <div class="sosmed flex ">
+                        <li><a href=""><i class="text-text fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="text-text fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="text-text fa-brands fa-whatsapp"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="px-10 pt-8 grid grid-cols-1 gap-10">
+        <img class="w-[80px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+        <p class="text-text">&copy; Insight Artificial Inteligence</p>
+        <div class="info flex flex-col gap-5">
+            <div class="info-text flex flex-col gap-2">
+                <p class="text-text"><span class="font-bold">Address: </span>Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
+                <p class="text-text"><span class="font-bold">Email: </span>info@eliteworld.tech</p>
+                <p class="text-text"><span class="font-bold">Phone: </span>+970 50 202 0942</p>
+            </div>
+            <ul class="flex flex-col gap-2">
+                <li><a class="text-white duration-100 hover:underline" href="index.html">Home</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="about.html">About Us</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="service.html">Service</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="sosmed flex ">
+                <li><a href=""><i class="text-text fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="text-text fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="text-text fa-brands fa-whatsapp"></i></a></li>
+            </div>
+            <p class="bg-slate-800 text-text p-6 text-center">© Insight Artificial Intelligence - 2023. The trademarks, logos, designs, services ,content appearing herein, are exclusively owned by Insight Artificial Intelligence, and/or its licensors, and are protected. Any unauthorized use reproduction or distribution shall attract suitable action under applicable law.</p>
+        </div>
+
+    </footer>
     <script src="JS/script.js"></script>
 </body>
 

@@ -22,6 +22,9 @@ module.exports = {
         boxborder: '#4D4D4D',
         bg: '#0C0F16',
       },
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(225, 225, 225, 0.25)'
+      },
       backgroundImage: {
         'home': "url('../Assets/gif/home-img.gif')",
         'service': "url('../Assets/gif/service-bg.gif')",
