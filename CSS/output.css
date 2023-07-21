@@ -661,6 +661,10 @@ video {
   z-index: 50;
 }
 
+.-z-10{
+  z-index: -10;
+}
+
 .float-right{
   float: right;
 }
@@ -808,6 +812,10 @@ video {
   height: 3px;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-\[15px\]{
   width: 15px;
 }
@@ -838,6 +846,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-1\/2{
+  width: 50%;
 }
 
 .flex-shrink{
@@ -1870,6 +1882,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-slate-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
 .bg-home{
   background-image: url('../Assets/gif/home-img.gif');
 }
@@ -2596,6 +2618,13 @@ video {
   text-decoration-line: underline;
 }
 
+@media (min-width: 1024px){
+  .navbar ul li a{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 /* Menu Toggle Animation */
 
 .hamburger-active > span:nth-child(1){
@@ -2759,6 +2788,10 @@ header.scrolled{
     margin-right: -1px;
   }
 
+  .laptop\:block{
+    display: block;
+  }
+
   .laptop\:hidden{
     display: none;
   }
@@ -2769,6 +2802,10 @@ header.scrolled{
 
   .laptop\:w-52{
     width: 13rem;
+  }
+
+  .laptop\:w-\[50px\]{
+    width: 50px;
   }
 
   .laptop\:grid-cols-2{
@@ -2815,6 +2852,11 @@ header.scrolled{
     background-color: transparent;
   }
 
+  .laptop\:bg-slate-800{
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  }
+
   .laptop\:p-0{
     padding: 0px;
   }
@@ -2852,6 +2894,10 @@ header.scrolled{
 
   .laptop\:pt-52{
     padding-top: 13rem;
+  }
+
+  .laptop\:pt-16{
+    padding-top: 4rem;
   }
 
   .laptop\:text-center{
