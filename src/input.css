@@ -30,5 +30,5 @@
 
 /* Scrolled Animation */
 header.scrolled {
-    @apply bg-slate-800/95;
+    @apply bg-bg/95;
 }
