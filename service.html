@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insight AI</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/output.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1c6364f841.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="font-poppins bg-bg">
+    <header
+        class="bg-transparent flex cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
+        <a href="index.html" class="logo">
+            <img class="w-[40px] laptop:w-[50px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+        </a>
+        <div
+            class="navbar invisible opacity-0 p-8 m-auto w-full laptop:w-4/5 bg-box/80 flex flex-col items-start gap-10 absolute left-0 top-[78px] right-0 rounded-b-2xl duration-300 laptop:flex-row laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pl-48 laptop:-mr-[1px]">
+            <nav>
+                <ul class="flex flex-col gap-4 laptop:flex-row">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav class="sosmed flex justify-between w-full gap-4 laptop:w-52">
+                <ul class="flex gap-4 laptop:flex-row">
+                    <li><a href="https://www.linkedin.com/company/insightuae/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/insightuae.tech/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/970502020942"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="./index.html">ENG</a></li>
+                    <li><a href="./arabic/home-ar.html">عربي</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-toggle relative flex items-center h-[30px] w-[30px] laptop:hidden">
+            <button id="hamburger" class="absolute flex flex-col items-end gap-2">
+                <span
+                    class="bg-white h-[3px] w-[35px] block transition ease-in-out duration-300 origin-top-right"></span>
+                <span class="bg-white h-[3px] w-[25px] block transition ease-in-out duration-300"></span>
+                <span
+                    class="bg-white h-[3px] w-[15px] block transition ease-in-out duration-300 origin-bottom-right"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HomePage -->
+    <main>
+        <!-- Service Section -->
+        <section id="service" class="bg-hole bg-cover bg-no-repeat bg-center pt-3 laptop:pt-32 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10 laptop:gap-20">
+            <div class="tittle flex flex-col gap-2">
+                <span class="text-span">OUR SERVICES</span>
+                <h2 class="text-3xl laptop:text-5xl font-bold text-text">SERVICES</h2>
+                <p class="text-text">Looking for a web development partner that will help you take your business to the next level? Look no further than us! We provide a wide range of services and we are committed to helping our clients achieve their goals.</p>
+            </div>
+            <div class="card-container grid grid-cols-1 tablet:grid-cols-2 gap-10 laptop:px-20">
+                <div class="card backdrop-blur-md flex flex-col border border-slate-300">
+                    <div class="card-tittle flex items-center border-b border-slate-300">
+                        <div class="img-icon p-5">
+                            <img class="w-[80px]" src="./Assets/svg/metaverse-icon.svg">
+                        </div>
+                        <h3 class="p-8 text-xl laptop:text-2xl border-l border-slate-300 text-text">Metaverse</h3>
+                    </div>
+                    <ul class="flex flex-col p-5 gap-5 laptop:gap-5">
+                        <li class="laptop:text-lg text-text">Augmented Reality Development</li>
+                        <li class="laptop:text-lg text-text">3D Web Design And Metaverse</li>
+                        <li class="laptop:text-lg text-text">Immersive Experiences</li>
+                        <li class="laptop:text-lg text-text">Web Augmented Reality</li>
+                    </ul>
+                </div>
+                <div class="card backdrop-blur-md flex flex-col border border-slate-300">
+                    <div class="card-tittle flex items-center border-b border-slate-300">
+                        <div class="img-icon p-5">
+                            <img class="w-[80px]" src="./Assets/svg/design-icon.svg">
+                        </div>
+                        <h3 class="p-8 text-xl laptop:text-2xl border-l border-slate-300 text-text">Design</h3>
+                    </div>
+                    <ul class="flex flex-col p-5 gap-5 laptop:gap-5">
+                        <li class="laptop:text-lg text-text">UI/UX Design</li>
+                        <li class="laptop:text-lg text-text">Graphic Design</li>
+                        <li class="laptop:text-lg text-text">3D Modeling & Visualization</li>
+                        <li class="laptop:text-lg text-text">AR For Engineering & Architecture</li>
+                    </ul>
+                </div>
+                <div class="card backdrop-blur-md flex flex-col border border-slate-300">
+                    <div class="card-tittle flex items-center border-b border-slate-300">
+                        <div class="img-icon p-5">
+                            <img class="w-[80px]" src="./Assets/svg/app-icon.svg">
+                        </div>
+                        <h3 class="p-8 text-xl laptop:text-2xl border-l border-slate-300 text-text">App & Websites</h3>
+                    </div>
+                    <ul class="flex flex-col p-5 gap-5 laptop:gap-5">
+                        <li class="laptop:text-lg text-text">Android anf IOS Apps</li>
+                        <li class="laptop:text-lg text-text">Web and Mobile Platforms</li>
+                        <li class="laptop:text-lg text-text">Company Websites</li>
+                        <li class="laptop:text-lg text-text">E-commerce</li>
+                    </ul>
+                </div>
+                <div class="card backdrop-blur-md flex flex-col border border-slate-300">
+                    <div class="card-tittle flex items-center border-b border-slate-300">
+                        <div class="img-icon p-5">
+                            <img class="w-[80px]" src="./Assets/svg/tech-icon.svg">
+                        </div>
+                        <h3 class="p-8 text-xl laptop:text-2xl border-l border-slate-300 text-text">Tech Support</h3>
+                    </div>
+                    <ul class="flex flex-col p-5 gap-5 laptop:gap-5">
+                        <li class="laptop:text-lg text-text">Websites and Apps Maintenance</li>
+                        <li class="laptop:text-lg text-text">Bug Fixes</li>
+                        <li class="laptop:text-lg text-text">Updates and Redesign</li>
+                        <li class="laptop:text-lg text-text">Projects Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 gap-10 laptop:pt-16 relative">
+        <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute left-0"></div>
+        <img class="w-[80px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+        <p class="text-text">&copy; Insight Artificial Inteligence</p>
+        <div class="info grid grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-32">
+            <div class="info-text flex flex-col gap-2">
+                <p class="text-text"><span class="font-semibold">Address : </span>Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
+                <p class="text-text"><span class="font-semibold">Email : </span>info@eliteworld.tech</p>
+                <p class="text-text"><span class="font-semibold">Phone : </span>+970 50 202 0942</p>
+            </div>
+            <ul class="flex flex-col gap-2">
+                <li><a class="text-white duration-100 hover:underline" href="index.html">Home</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="about.html">About Us</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="service.html">Service</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="sosmed-info flex flex-col gap-2">
+                <h4 class="text-text text-lg">Follow Us</h4>
+                <div class="sosmed">
+                    <ul class="flex gap-4">
+                        <li><a href="https://www.instagram.com/insightuae.tech/"><i class="laptop:text-lg text-text fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/insightuae/"><i class="laptop:text-lg text-text fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://wa.me/970502020942"><i class="laptop:text-lg text-text fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCHq-QO0sQFaQvGKLzjaFjlQ"><i class="laptop:text-lg text-text fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@insightuaetech"><i class="laptop:text-lg text-text fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100093161832369"><i class="laptop:text-lg text-text fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/insightuaetech"><i class="laptop:text-lg text-text fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="text-text p-6 text-center laptop:bg-slate-800">© Insight Artificial Intelligence - 2023. The trademarks, logos, designs, services ,content appearing herein, are exclusively owned by Insight Artificial Intelligence, and/or its licensors, and are protected. Any unauthorized use reproduction or distribution shall attract suitable action under applicable law.</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

@@ -28,6 +28,10 @@ module.exports = {
       backgroundImage: {
         'home': "url('../Assets/gif/home-img.gif')",
         'service': "url('../Assets/gif/service-bg.gif')",
+        'wavy': "url('../Assets/gif/wavy-bg.gif')",
+        'ombaks': "url('../Assets/gif/ombaks-bg.gif')",
+        'bumi': "url('../Assets/gif/blubumi-bg.gif')",
+        'hole': "url('../Assets/gif/hole-bg.gif')",
         'recognition': "url('../Assets/gif/bumi-mutars.gif')"
       }
     },

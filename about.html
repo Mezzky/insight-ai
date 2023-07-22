@@ -52,20 +52,20 @@
     <!-- HomePage -->
     <main>
         <!-- Landing Section -->
-        <section class="bg-home bg-no-repeat bg-cover bg-center pt-28 pb-10 laptop:py-32 laptop:pt-52 laptop:pb-60 px-10 tablet:px-20 laptop:px-80 grid grid-cols-1 gap-8 laptop:gap-60" id="home">
+        <section class="bg-ombaks bg-no-repeat bg-cover bg-center pt-28 pb-10 laptop:py-32 laptop:pt-80 laptop:pb-60 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-8 laptop:gap-60" id="home">
             <div class="content flex flex-col gap-5 laptop:items-center">
                 <h2 class="text-3xl laptop:text-6xl text-text font-bold">About Us</h2>
                 <p class="text-text laptop:text-center">With a strong focus on research and development, we are constantly pushing the boundaries of what is possible and developing cutting-edge digital products and services!</p>
                 <div class="link flex gap-2 items-center">
                     <a class="text-text" href="index.html">Home</a>
                     <span class="text-text">/</span>
-                    <a class="text-span" href="about.html">About Us</a>
+                    <a class="text-span" href="#about">About Us</a>
                 </div>
             </div>
         </section>
 
         <!-- Service Section -->
-        <section id="service" class="bg-service bg-cover bg-no-repeat bg-center pt-3 laptop:pt-32 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-80 grid grid-cols-1 gap-10 laptop:gap-20">
+        <section id="service" class="bg-service bg-cover bg-no-repeat bg-center pt-3 laptop:pt-32 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10 laptop:gap-20">
             <div class="tittle grid grid-cols-1 gap-5 laptop:gap-10 laptop:grid-cols-2 laptop:py-60">
                 <div class="left flex flex-col gap-5 laptop:gap-10">
                     <div class="logo flex flex-col gap-5 laptop:gap-10">
@@ -100,7 +100,7 @@
         </section>
 
         <!-- Recognition Section -->
-        <section class="recognition bg-recognition bg-cover bg-no-repeat bg-center pt-3 laptop:pt-52 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-80 grid grid-cols-1 gap-5 laptop:gap-40">
+        <section class="recognition bg-recognition bg-cover bg-no-repeat bg-center pt-3 laptop:pt-52 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-5 laptop:gap-40">
             <div class="content grid grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-20">
                 <div class="text">
                     <span class="text-span">OUR</span>
@@ -115,10 +115,43 @@
                 </div>
             </div>
         </section>
+        
+        <!-- About Section -->
+        <section id="about" class="about relative bg-bg pt-3 laptop:pt-52 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 laptop:grid-cols-2 gap-10 laptop:gap-40">
+            <div class="shape hidden laptop:block h-full w-1/4 bg-[#1A1E25] absolute left-0"></div>
+            <div class="img-container flex items-center laptop:items-start justify-center">
+                <img class="laptop:scale-150" src="./Assets/img/Insight Logo Dark.png">
+            </div>
+            <div class="about-content flex flex-col gap-5">
+                <h2 class="text-text text-xl">About Us</h2>
+                <p class="text-slate-300">Insight AI is the best choice for developing virtual reality apps and advanced mobile applications. We have a team of experienced developers who are experts in the latest technology trends</p>
+                <div class="list flex gap-2">
+                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">1</span>
+                    <div class="text flex flex-col gap-2">
+                        <h3 class="text-slate-300">Our Mission</h3>
+                        <p class="text-slate-400">Our mission is to expand access to innovative, advanced technology in institutions across the Middle East. We believe that by introducing cutting-edge solutions, we can help drive progress and development.</p>
+                    </div>
+                </div>
+                <div class="list flex gap-2">
+                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">2</span>
+                    <div class="text flex flex-col gap-2">
+                        <h3 class="text-slate-300">Our Goals</h3>
+                        <p class="text-slate-400">To encourage the use of advanced technology and bring it to more institutions and businesses in the region.</p>
+                    </div>
+                </div>
+                <div class="list flex gap-2">
+                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">3</span>
+                    <div class="text flex flex-col gap-2">
+                        <h3 class="text-slate-300">Why Us?</h3>
+                        <p class="text-slate-400">We offer cutting-edge tech products and services, and exceptional customer service, and we are committed to always exceeding our client's expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
-    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-80 pt-8 grid grid-cols-1 gap-10 laptop:pt-16 relative">
+    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 gap-10 laptop:pt-16 relative">
         <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute left-0"></div>
         <img class="w-[80px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
         <p class="text-text">&copy; Insight Artificial Inteligence</p>
