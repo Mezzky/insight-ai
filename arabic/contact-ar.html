@@ -14,17 +14,17 @@
 
 <body class="font-poppins bg-bg">
     <header
-        class="bg-transparent flex cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
+        class="bg-transparent flex laptop:flex-row-reverse cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
         <a href="../arabic/home-ar.html" class="logo">
             <img class="w-[40px] laptop:w-[50px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
         </a>
         <div
-            class="navbar invisible opacity-0 p-8 m-auto w-full laptop:w-4/5 bg-box/80 flex flex-col items-start gap-10 absolute left-0 top-[78px] right-0 rounded-b-2xl duration-300 laptop:flex-row laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pl-48 laptop:-mr-[1px]">
+            class="navbar invisible opacity-0 p-8 m-auto w-full laptop:w-4/5 bg-box/80 flex flex-col items-end gap-10 absolute left-0 top-[78px] right-0 rounded-b-2xl duration-300 laptop:flex-row-reverse laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pr-52 laptop:-mr-[1px]">
             <nav>
-                <ul class="flex flex-col gap-5 laptop:flex-row">
+                <ul class="flex flex-col gap-5 laptop:flex-row-reverse">
                     <li><a href="../arabic/home-ar.html">الرئيسية</a></li>
                     <li><a href="../arabic/about-ar.html">من نحن</a></li>
-                    <li><a href="../arabic/service-ar.html">اتصل بنا</a></li>
+                    <li><a href="../arabic/service-ar.html">خدماتنا</a></li>
                     <li><a href="../arabic/contact-ar.html">اتصل بنا</a></li>
                 </ul>
             </nav>
@@ -33,7 +33,7 @@
                     <li><a href="https://www.linkedin.com/company/insightuae/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     <li><a href="https://www.instagram.com/insightuae.tech/"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="https://wa.me/970502020942"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="index.html">ENG</a></li>
+                    <li><a href="../contact.html">ENG</a></li>
                     <li><a href="./arabic/home-ar.html">عربي</a></li>
                 </ul>
             </nav>
@@ -53,83 +53,83 @@
     <main>
         <!-- Landing Section -->
         <section class="bg-home bg-no-repeat bg-cover bg-center pt-28 pb-10 laptop:py-32 laptop:pt-80 laptop:pb-60 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-8 laptop:gap-60" id="home">
-            <div class="content flex flex-col gap-5 laptop:items-center">
-                <h2 class="text-3xl laptop:text-6xl text-text font-bold">لنتحدث اكثر عن مشروعك</h2>
-                <p class="text-text laptop:text-center">شكرا لك لاختيارك بيّن ديجيتال لإدارة مشاريعك، سنكون سعداء بالرد على اسئلتكم ومتطلباتكم وتقديم معلومات إضافية حول خدماتنا الرقمية.</p>
+            <div class="content flex flex-col items-end gap-5 laptop:items-center">
+                <h2 class="text-3xl text-right laptop:text-6xl text-text font-bold">لنتحدث اكثر عن مشروعك</h2>
+                <p class="text-text text-right laptop:text-center">شكرا لك لاختيارك بيّن ديجيتال لإدارة مشاريعك، سنكون سعداء بالرد على اسئلتكم ومتطلباتكم وتقديم معلومات إضافية حول خدماتنا الرقمية.</p>
                 <div class="link flex gap-2 items-center">
-                    <a class="text-text" href="index.html">الرئيسية</a>
+                    <a class="text-span" href="#contact">اتصل بنا</a>
                     <span class="text-text">/</span>
-                    <a class="text-span" href="#contact">Contact Us</a>
+                    <a class="text-text" href="index.html">الرئيسية</a>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact pt-3 pb-20 laptop:pt-52 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10">
+        <section class="contact pt-3 pb-20 laptop:pt-52 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10">
             <div class="contact-tittle grid grid-cols-1 gap-10">
-                <div class="left flex flex-col gap-2">
-                    <span class="text-span">Let's Talk</span>
-                    <h2 class="text-2xl text-slate-500 font-bold laptop:text-5xl">ABOUT YOUR <span class="text-text">NEXT <br class="hidden laptop:block"> PROJECT</span>.</h2>
+                <div class="left flex flex-col items-end gap-2">
+                    <span class="text-span">لنتواصل</span>
+                    <h2 class="text-2xl text-slate-500 font-bold laptop:text-5xl">ما هو مشرو <span class="text-text">عك <br class="hidden laptop:block"> القادم؟</span>.</h2>
                 </div>
-                <div class="btn">
-                    <a class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" href="">Get In Touch</a>
+                <div class="btn text-right">
+                    <a class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" href="./contact-ar.html">اتصل بنا</a>
                 </div>
             </div>
             <div class="contact-content grid grid-cols-1 gap-10 laptop:grid-cols-2 laptop:gap-32">
-                <div class="form-contact">
-                    <h3 class="text-xl text-text font-bold mb-5">Get Started</h3>
+                <div class="form-contact laptop:order-2">
+                    <h3 class="text-xl text-text font-bold mb-5 text-right">لنبدأ</h3>
                     <form class="flex flex-col gap-10" action="" autocomplete="off">
                         <div class="input-box flex flex-col gap-5">
-                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="text" name="name" id="name" placeholder="Your Name">
-                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="email" name="email" id="email" placeholder="Your Email">
-                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="number" name="number" id="number" placeholder="Phone">
+                            <input class="text-right bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="text" name="name" id="name" placeholder="الاسم">
+                            <input class="text-right bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="email" name="email" id="email" placeholder="الايميل">
+                            <input class="text-right bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="number" name="number" id="number" placeholder="رقم الهاتف">
                         </div>
-                        <div class="radio-box">
+                        <div class="radio-box flex flex-col items-end">
                             <div class="radio-content">
+                                <label class="text-text" for="app">التطبيقات والويب</label>
                                 <input type="radio" name="app" id="app">
-                                <label class="text-text" for="app">Apps and websites</label>
                             </div>
                             <div class="radio-content">
+                                <label class="text-text" for="design">التصميم</label>
                                 <input type="radio" name="design" id="design">
-                                <label class="text-text" for="design">Design</label>
                             </div>
                             <div class="radio-content">
+                                <label class="text-text" for="web">الجيل الثالث للانترنت</label>
                                 <input type="radio" name="web" id="web">
-                                <label class="text-text" for="web">Web 3.0 and Metaverse</label>
                             </div>
                             <div class="radio-content">
+                                <label class="text-text" for="tech">الدعم الفني</label>
                                 <input type="radio" name="tech" id="tech">
-                                <label class="text-text" for="tech">Tech Support Projects</label>
                             </div>
                             <div class="radio-content">
+                                <label class="text-text" for="other">أخرى</label>
                                 <input type="radio" name="other" id="other">
-                                <label class="text-text" for="other">Other</label>
                             </div>
                         </div>
-                        <div class="input-box flex flex-col gap-5">
-                            <label class="text-text font-bold" for="budget">YOUR BUDGET</label>
-                            <input class="focus:outline-none bg-transparent border-b border-text p-2 text-text"pe="text" name="budget" id="budget" placeholder="ex: +$1000">
+                        <div class="input-box flex flex-col items-end gap-5">
+                            <label class="text-text font-bold" for="budget">ميزانيتك</label>
+                            <input class="text-right focus:outline-none bg-transparent border-b border-text p-2 text-text"pe="text" name="budget" id="budget" placeholder="ex: +$1000">
                         </div>
-                        <div class="input-box flex flex-col gap-5">
-                            <label class="text-text font-bold" for="brief">BRIEF:</label>
-                            <textarea class="focus:outline-none bg-transparent text-text p-2 border border-text" name="brief" id="brief" cols="30" rows="10"></textarea>
+                        <div class="input-box flex flex-col items-end gap-5">
+                            <label class="text-text font-bold" for="brief">تفاصيل أكثر</label>
+                            <textarea class="text-right focus:outline-none bg-transparent text-text p-2 border border-text" name="brief" id="brief" cols="30" rows="10"></textarea>
                         </div>
-                        <div class="btn">
-                            <button class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" type="submit">SEND MESSAGE</button>
+                        <div class="btn text-right">
+                            <button class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" type="submit">ارسل الطلب</button>
                         </div>
                     </form>
                 </div>
-                <div class="contact-info flex flex-col gap-5">
-                    <h3 class="text-text font-bold text-xl">Contact Info.</h3>
-                    <img class="w-[50px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
-                    <p class="text-text">&copy; Insight Artificial Inteligence</p>
-                    <div class="talk flex flex-col gap-2">
-                        <h4 class="text-text text-lg">LET'S TALK</h4>
+                <div class="contact-info flex flex-col items-end gap-5 laptop:order-1">
+                    <h3 class="text-text font-bold text-xl">للتواصل</h3>
+                    <img class="w-[50px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+                    <p class="text-text">انسايت للذكاء الاصطناعي &copy;</p>
+                    <div class="talk flex flex-col items-end gap-2">
+                        <h4 class="text-text text-lg">لنتحدث</h4>
                         <p class="text-text">INFO@ELITEWORLD.TECH</p>
                         <p class="text-text">+970 50 202 0942</p>
                     </div>
-                    <div class="visit flex flex-col gap-2">
-                        <h4 class="text-text text-lg">VISIT US</h4>
+                    <div class="visit flex flex-col items-end gap-2">
+                        <h4 class="text-text text-lg">زورونا</h4>
                         <p class="text-text font-semibold">Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
                     </div>
                     <div class="sosmed">
@@ -154,12 +154,12 @@
     </main>
 
     <!-- Footer -->
-    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 gap-10 laptop:pt-16 relative">
-        <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute left-0"></div>
+    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 place-items-end gap-10 laptop:pt-16 relative">
+        <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute right-0"></div>
         <img class="w-[80px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
-        <p class="text-text">&copy; انسايت للذكاء الاصطناعي</p>
-        <div class="info grid grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-32">
-            <div class="info-text flex flex-col gap-2">
+        <p class="text-text">انسايت للذكاء الاصطناعي &copy;</p>
+        <div class="info grid grid-cols-1 place-items-end gap-5 laptop:grid-cols-2 laptop:gap-32">
+            <div class="info-text flex flex-col items-end gap-2">
                 <p class="text-text"><span class="font-semibold">العنوان : </span>Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
                 <p class="text-text"><span class="font-semibold">الايميل : </span>info@eliteworld.tech</p>
                 <p class="text-text"><span class="font-semibold">الهاتف : </span>+970 50 202 0942</p>
@@ -167,11 +167,11 @@
             <ul class="flex flex-col gap-2">
                 <li><a class="text-white duration-100 hover:underline" href="../arabic/home-ar.html">الرئيسية</a></li>
                 <li><a class="text-white duration-100 hover:underline" href="../arabic/about-ar.html">من نحن ؟</a></li>
-                <li><a class="text-white duration-100 hover:underline" href="../arabic/service-ar.html">الدعم الفني</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="../arabic/service-ar.html">خدماتنا</a></li>
                 <li><a class="text-white duration-100 hover:underline" href="../arabic/contact-ar.html">اتصل بنا</a></li>
             </ul>
             <div class="sosmed-info flex flex-col gap-2">
-                <h4 class="text-text text-lg">تابعنا</h4>
+                <h4 class="text-text text-lg text-right">تابعنا</h4>
                 <div class="sosmed">
                     <ul class="flex gap-4">
                         <li><a href="https://www.instagram.com/insightuae.tech/"><i class="laptop:text-lg text-text fa-brands fa-instagram"></i></a></li>

@@ -14,17 +14,17 @@
 
 <body class="font-poppins bg-bg">
     <header
-        class="bg-transparent flex cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
+        class="bg-transparent flex laptop:flex-row-reverse cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
         <a href="../arabic/home-ar.html" class="logo">
             <img class="w-[40px] laptop:w-[50px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
         </a>
         <div
-            class="navbar invisible opacity-0 p-8 m-auto w-full laptop:w-4/5 bg-box/80 flex flex-col items-start gap-10 absolute left-0 top-[78px] right-0 rounded-b-2xl duration-300 laptop:flex-row laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pl-48 laptop:-mr-[1px]">
+            class="navbar invisible opacity-0 p-8 m-auto w-full laptop:w-4/5 bg-box/80 flex flex-col items-end gap-10 absolute left-0 top-[78px] right-0 rounded-b-2xl duration-300 laptop:flex-row-reverse laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pr-52 laptop:-mr-[1px]">
             <nav>
-                <ul class="flex flex-col gap-5 laptop:flex-row">
+                <ul class="flex flex-col gap-5 laptop:flex-row-reverse">
                     <li><a href="../arabic/home-ar.html">الرئيسية</a></li>
                     <li><a href="../arabic/about-ar.html">من نحن</a></li>
-                    <li><a href="../arabic/service-ar.html">اتصل بنا</a></li>
+                    <li><a href="../arabic/service-ar.html">خدماتنا</a></li>
                     <li><a href="../arabic/contact-ar.html">اتصل بنا</a></li>
                 </ul>
             </nav>
@@ -33,7 +33,7 @@
                     <li><a href="https://www.linkedin.com/company/insightuae/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                     <li><a href="https://www.instagram.com/insightuae.tech/"><i class="fa-brands fa-instagram"></i></a></li>
                     <li><a href="https://wa.me/970502020942"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="index.html">ENG</a></li>
+                    <li><a href="../about.html">ENG</a></li>
                     <li><a href="./arabic/home-ar.html">عربي</a></li>
                 </ul>
             </nav>
@@ -53,28 +53,28 @@
     <main>
         <!-- Landing Section -->
         <section class="bg-ombaks bg-no-repeat bg-cover bg-center pt-28 pb-10 laptop:py-32 laptop:pt-80 laptop:pb-60 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-8 laptop:gap-60" id="home">
-            <div class="content flex flex-col gap-5 laptop:items-center">
+            <div class="content flex flex-col gap-5 items-end laptop:items-center">
                 <h2 class="text-3xl laptop:text-6xl text-text font-bold">عن انسايت</h2>
-                <p class="text-text laptop:text-center">بتوجهنا المستمر نحو البحث والتطوير، نحن ندفع باستمرار حدود ما هو ممكن ونطور منتجات وخدمات رقمية رائدة!</p>
+                <p class="text-text text-right laptop:text-center">بتوجهنا المستمر نحو البحث والتطوير، نحن ندفع باستمرار حدود ما هو ممكن ونطور منتجات وخدمات رقمية رائدة!</p>
                 <div class="link flex gap-2 items-center">
-                    <a class="text-text" href="index.html">>الرئيسية</a>
-                    <span class="text-text">/</span>
                     <a class="text-span" href="#about">>عن انسايت</a>
+                    <span class="text-text">/</span>
+                    <a class="text-text" href="index.html">>الرئيسية</a>
                 </div>
             </div>
         </section>
 
         <!-- Service Section -->
-        <section id="service" class="bg-service bg-cover bg-no-repeat bg-center pt-3 laptop:pt-32 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10 laptop:gap-20">
+        <section id="service" class="bg-service bg-cover bg-no-repeat bg-center pt-5 laptop:pt-32 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10 laptop:gap-20">
             <div class="tittle grid grid-cols-1 gap-5 laptop:gap-10 laptop:grid-cols-2 laptop:py-60">
-                <div class="left flex flex-col gap-5 laptop:gap-10">
-                    <div class="logo flex flex-col gap-5 laptop:gap-10">
+                <div class="left laptop:order-2 flex flex-col items-end gap-5 laptop:gap-10">
+                    <div class="logo flex flex-col items-end gap-5 laptop:gap-10">
                         <img class="w-[80px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
-                        <p class="text-text">&copy; Insight Artificial Inteligence</p>
+                        <p class="text-text">انسايت للذكاء الاصطناعي &copy;</p>
                     </div>
-                    <h2 class="text-2xl text-text font-bold laptop:text-center laptop:text-5xl">نحن نصنع مستقبلًا مليئًا بالابتكار والفرص!</h2>
+                    <h2 class="text-2xl text-text text-right font-bold laptop:text-center laptop:text-5xl">نحن نصنع مستقبلًا مليئًا بالابتكار والفرص!</h2>
                 </div>
-                <p class="text-text self-end">نحن شركة ناشئة و موجهة في منطقة الشرق الاوسط و شمال افريقيا و مقرها أبوظبي. مهمتنا هي دعم و المساهمة في التحول الرقمي في الشرق الأوسط. نساعد رواد الأعمال أصحاب البصيرة وأصحاب المشاريع الناشئة المبتكرة.</p>
+                <p class="text-text self-end text-right laptop:order-1">نحن شركة ناشئة و موجهة في منطقة الشرق الاوسط و شمال افريقيا و مقرها أبوظبي. مهمتنا هي دعم و المساهمة في التحول الرقمي في الشرق الأوسط. نساعد رواد الأعمال أصحاب البصيرة وأصحاب المشاريع الناشئة المبتكرة.</p>
             </div>
             <div class="tittle flex flex-col gap-2 items-center">
                 <span class="text-span">افضل الخيارات</span>
@@ -101,12 +101,12 @@
 
         <!-- Recognition Section -->
         <section class="recognition bg-recognition bg-cover bg-no-repeat bg-center pt-3 laptop:pt-52 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-5 laptop:gap-40">
-            <div class="content grid grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-20">
-                <div class="text">
-                    <span class="text-span">OUR</span>
+            <div class="content grid place-items-end laptop:place-items-start grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-20">
+                <div class="text laptop:order-2 laptop:flex laptop:flex-col laptop:items-end">
+                    <span class="text-span">ملكنا</span>
                     <h2 class="text-xl text-text font-bold laptop:text-5xl">المؤسس</h2>
                 </div>
-                <div class="img-container">
+                <div class="img-container laptop:order-1">
                     <div class="img-box p-2 rounded-md border bg-bg border-slate-400 pb-10 flex flex-col items-center gap-5">
                         <img src="../Assets/img/founder-insight.jpg" alt="">
                         <h4 class="text-text font-bold text-xl">مها البنا</h4>
@@ -118,45 +118,45 @@
         
         <!-- About Section -->
         <section id="about" class="about relative bg-bg pt-3 laptop:pt-52 pb-20 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 laptop:grid-cols-2 gap-10 laptop:gap-40">
-            <div class="shape hidden laptop:block h-full w-1/4 bg-[#1A1E25] absolute left-0"></div>
-            <div class="img-container flex items-center laptop:items-start justify-center">
+            <div class="shape hidden laptop:block h-full w-1/4 bg-[#1A1E25] absolute right-0"></div>
+            <div class="img-container laptop:order-2 flex items-center laptop:items-start justify-center">
                 <img class="laptop:scale-150" src="../Assets/img/Insight Logo Dark.png">
             </div>
-            <div class="about-content flex flex-col gap-5">
+            <div class="about-content laptop:order-1 flex flex-col items-end gap-5">
                 <h2 class="text-text text-xl">من نحن</h2>
-                <p class="text-slate-300"> انسايت الخيار الأفضل لتطوير تطبيقات الواقع المعزز وتطبيقات الهاتف المحمول المتقدمة. لدينا فريق من المطورين الخبراء في أحدث توجهات التكنولوجيا</p>
+                <p class="text-slate-300 text-right"> انسايت الخيار الأفضل لتطوير تطبيقات الواقع المعزز وتطبيقات الهاتف المحمول المتقدمة. لدينا فريق من المطورين الخبراء في أحدث توجهات التكنولوجيا</p>
                 <div class="list flex gap-2">
-                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">1</span>
-                    <div class="text flex flex-col gap-2">
+                    <div class="text flex flex-col items-end gap-2">
                         <h3 class="text-slate-300">مهمتنا</h3>
-                        <p class="text-slate-400">مهمتنا هي تعزيز المزيد من المؤسسات في الشرق الأوسط بالتكنولوجيا المتقدمة والابتكار. نؤمن أن من خلال تقديمنا للحلول الأكثر تقدماً سنساهم في رحلة التقدم والازدهار.</p>
+                        <p class="text-slate-400 text-right">مهمتنا هي تعزيز المزيد من المؤسسات في الشرق الأوسط بالتكنولوجيا المتقدمة والابتكار. نؤمن أن من خلال تقديمنا للحلول الأكثر تقدماً سنساهم في رحلة التقدم والازدهار.</p>
                     </div>
+                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">1</span>
                 </div>
                 <div class="list flex gap-2">
-                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">2</span>
-                    <div class="text flex flex-col gap-2">
+                    <div class="text flex flex-col items-end gap-2">
                         <h3 class="text-slate-300">أهدافنا</h3>
-                        <p class="text-slate-400">أن نسهل الوصول للتكنولوجيا المتقدمة للمؤسسات والشركات في المنطقة</p>
+                        <p class="text-slate-400 text-right">أن نسهل الوصول للتكنولوجيا المتقدمة للمؤسسات والشركات في المنطقة</p>
                     </div>
+                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">2</span>
                 </div>
                 <div class="list flex gap-2">
-                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">3</span>
-                    <div class="text flex flex-col gap-2">
+                    <div class="text flex flex-col items-end gap-2">
                         <h3 class="text-slate-300">لماذا تختار انسايت؟</h3>
-                        <p class="text-slate-400">نحن نقدم منتجات وخدمات فائقة الحداثة في مجال التكنولوجيا، وخدمة عملاء متميزة، ونحن ملتزمون بتجاوز التوقعات لدى جميع عملائنا دائمًا.</p>
+                        <p class="text-slate-400 text-right">نحن نقدم منتجات وخدمات فائقة الحداثة في مجال التكنولوجيا، وخدمة عملاء متميزة، ونحن ملتزمون بتجاوز التوقعات لدى جميع عملائنا دائمًا.</p>
                     </div>
+                    <span class="text-span border self-start border-span py-2 px-3 rounded-full">3</span>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 gap-10 laptop:pt-16 relative">
-        <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute left-0"></div>
+    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 place-items-end gap-10 laptop:pt-16 relative">
+        <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute right-0"></div>
         <img class="w-[80px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
-        <p class="text-text">&copy; انسايت للذكاء الاصطناعي</p>
-        <div class="info grid grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-32">
-            <div class="info-text flex flex-col gap-2">
+        <p class="text-text">انسايت للذكاء الاصطناعي &copy;</p>
+        <div class="info grid grid-cols-1 place-items-end gap-5 laptop:grid-cols-2 laptop:gap-32">
+            <div class="info-text flex flex-col items-end gap-2">
                 <p class="text-text"><span class="font-semibold">العنوان : </span>Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
                 <p class="text-text"><span class="font-semibold">الايميل : </span>info@eliteworld.tech</p>
                 <p class="text-text"><span class="font-semibold">الهاتف : </span>+970 50 202 0942</p>
@@ -164,11 +164,11 @@
             <ul class="flex flex-col gap-2">
                 <li><a class="text-white duration-100 hover:underline" href="../arabic/home-ar.html">الرئيسية</a></li>
                 <li><a class="text-white duration-100 hover:underline" href="../arabic/about-ar.html">من نحن ؟</a></li>
-                <li><a class="text-white duration-100 hover:underline" href="../arabic/service-ar.html">الدعم الفني</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="../arabic/service-ar.html">خدماتنا</a></li>
                 <li><a class="text-white duration-100 hover:underline" href="../arabic/contact-ar.html">اتصل بنا</a></li>
             </ul>
             <div class="sosmed-info flex flex-col gap-2">
-                <h4 class="text-text text-lg">تابعنا</h4>
+                <h4 class="text-text text-lg text-right">تابعنا</h4>
                 <div class="sosmed">
                     <ul class="flex gap-4">
                         <li><a href="https://www.instagram.com/insightuae.tech/"><i class="laptop:text-lg text-text fa-brands fa-instagram"></i></a></li>
