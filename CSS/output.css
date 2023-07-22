@@ -2889,6 +2889,10 @@ header.scrolled{
     flex-direction: row;
   }
 
+  .laptop\:flex-row-reverse{
+    flex-direction: row-reverse;
+  }
+
   .laptop\:items-start{
     align-items: flex-start;
   }
@@ -2962,11 +2966,6 @@ header.scrolled{
     padding-right: 15rem;
   }
 
-  .laptop\:px-80{
-    padding-left: 20rem;
-    padding-right: 20rem;
-  }
-
   .laptop\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -3003,6 +3002,18 @@ header.scrolled{
 
   .laptop\:pt-80{
     padding-top: 20rem;
+  }
+
+  .laptop\:pr-48{
+    padding-right: 12rem;
+  }
+
+  .laptop\:pr-52{
+    padding-right: 13rem;
+  }
+
+  .laptop\:pr-72{
+    padding-right: 18rem;
   }
 
   .laptop\:text-center{

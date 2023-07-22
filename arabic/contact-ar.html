@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insight AI</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/output.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1c6364f841.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="font-poppins bg-bg">
+    <header
+        class="bg-transparent flex cursor-pointer m-auto w-full fixed left-0 right-0 justify-between z-50 items-center py-4 px-5 laptop:px-4 duration-300">
+        <a href="../arabic/home-ar.html" class="logo">
+            <img class="w-[40px] laptop:w-[50px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+        </a>
+        <div
+            class="navbar invisible opacity-0 p-8 m-auto w-full laptop:w-4/5 bg-box/80 flex flex-col items-start gap-10 absolute left-0 top-[78px] right-0 rounded-b-2xl duration-300 laptop:flex-row laptop:static laptop:visible laptop:opacity-100 laptop:items-center laptop:justify-between laptop:bg-transparent laptop:p-0 laptop:pl-48 laptop:-mr-[1px]">
+            <nav>
+                <ul class="flex flex-col gap-5 laptop:flex-row">
+                    <li><a href="../arabic/home-ar.html">الرئيسية</a></li>
+                    <li><a href="../arabic/about-ar.html">من نحن</a></li>
+                    <li><a href="../arabic/service-ar.html">اتصل بنا</a></li>
+                    <li><a href="../arabic/contact-ar.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <nav class="sosmed flex justify-between w-full gap-4 laptop:w-52">
+                <ul class="flex gap-4 laptop:flex-row">
+                    <li><a href="https://www.linkedin.com/company/insightuae/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/insightuae.tech/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/970502020942"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="index.html">ENG</a></li>
+                    <li><a href="./arabic/home-ar.html">عربي</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-toggle relative flex items-center h-[30px] w-[30px] laptop:hidden">
+            <button id="hamburger" class="absolute flex flex-col items-end gap-2">
+                <span
+                    class="bg-white h-[3px] w-[35px] block transition ease-in-out duration-300 origin-top-right"></span>
+                <span class="bg-white h-[3px] w-[25px] block transition ease-in-out duration-300"></span>
+                <span
+                    class="bg-white h-[3px] w-[15px] block transition ease-in-out duration-300 origin-bottom-right"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HomePage -->
+    <main>
+        <!-- Landing Section -->
+        <section class="bg-home bg-no-repeat bg-cover bg-center pt-28 pb-10 laptop:py-32 laptop:pt-80 laptop:pb-60 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-8 laptop:gap-60" id="home">
+            <div class="content flex flex-col gap-5 laptop:items-center">
+                <h2 class="text-3xl laptop:text-6xl text-text font-bold">لنتحدث اكثر عن مشروعك</h2>
+                <p class="text-text laptop:text-center">شكرا لك لاختيارك بيّن ديجيتال لإدارة مشاريعك، سنكون سعداء بالرد على اسئلتكم ومتطلباتكم وتقديم معلومات إضافية حول خدماتنا الرقمية.</p>
+                <div class="link flex gap-2 items-center">
+                    <a class="text-text" href="index.html">الرئيسية</a>
+                    <span class="text-text">/</span>
+                    <a class="text-span" href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact pt-3 pb-20 laptop:pt-52 laptop:pb-32 px-10 tablet:px-20 laptop:px-60 grid grid-cols-1 gap-10">
+            <div class="contact-tittle grid grid-cols-1 gap-10">
+                <div class="left flex flex-col gap-2">
+                    <span class="text-span">Let's Talk</span>
+                    <h2 class="text-2xl text-slate-500 font-bold laptop:text-5xl">ABOUT YOUR <span class="text-text">NEXT <br class="hidden laptop:block"> PROJECT</span>.</h2>
+                </div>
+                <div class="btn">
+                    <a class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" href="">Get In Touch</a>
+                </div>
+            </div>
+            <div class="contact-content grid grid-cols-1 gap-10 laptop:grid-cols-2 laptop:gap-32">
+                <div class="form-contact">
+                    <h3 class="text-xl text-text font-bold mb-5">Get Started</h3>
+                    <form class="flex flex-col gap-10" action="" autocomplete="off">
+                        <div class="input-box flex flex-col gap-5">
+                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="text" name="name" id="name" placeholder="Your Name">
+                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="email" name="email" id="email" placeholder="Your Email">
+                            <input class="bg-transparent border-b border-text p-2 focus:outline-none focus:border-text text-text" type="number" name="number" id="number" placeholder="Phone">
+                        </div>
+                        <div class="radio-box">
+                            <div class="radio-content">
+                                <input type="radio" name="app" id="app">
+                                <label class="text-text" for="app">Apps and websites</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="design" id="design">
+                                <label class="text-text" for="design">Design</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="web" id="web">
+                                <label class="text-text" for="web">Web 3.0 and Metaverse</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="tech" id="tech">
+                                <label class="text-text" for="tech">Tech Support Projects</label>
+                            </div>
+                            <div class="radio-content">
+                                <input type="radio" name="other" id="other">
+                                <label class="text-text" for="other">Other</label>
+                            </div>
+                        </div>
+                        <div class="input-box flex flex-col gap-5">
+                            <label class="text-text font-bold" for="budget">YOUR BUDGET</label>
+                            <input class="focus:outline-none bg-transparent border-b border-text p-2 text-text"pe="text" name="budget" id="budget" placeholder="ex: +$1000">
+                        </div>
+                        <div class="input-box flex flex-col gap-5">
+                            <label class="text-text font-bold" for="brief">BRIEF:</label>
+                            <textarea class="focus:outline-none bg-transparent text-text p-2 border border-text" name="brief" id="brief" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button class="text-text px-5 py-2 border border-text duration-300 hover:bg-text hover:text-bg" type="submit">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info flex flex-col gap-5">
+                    <h3 class="text-text font-bold text-xl">Contact Info.</h3>
+                    <img class="w-[50px]" src="Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+                    <p class="text-text">&copy; Insight Artificial Inteligence</p>
+                    <div class="talk flex flex-col gap-2">
+                        <h4 class="text-text text-lg">LET'S TALK</h4>
+                        <p class="text-text">INFO@ELITEWORLD.TECH</p>
+                        <p class="text-text">+970 50 202 0942</p>
+                    </div>
+                    <div class="visit flex flex-col gap-2">
+                        <h4 class="text-text text-lg">VISIT US</h4>
+                        <p class="text-text font-semibold">Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
+                    </div>
+                    <div class="sosmed">
+                        <ul class="flex gap-4">
+                            <li><a href="https://www.instagram.com/insightuae.tech/"><i class="laptop:text-lg text-text fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/insightuae/"><i class="laptop:text-lg text-text fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://wa.me/970502020942"><i class="laptop:text-lg text-text fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCHq-QO0sQFaQvGKLzjaFjlQ"><i class="laptop:text-lg text-text fa-brands fa-youtube"></i></a></li>
+                            <li><a href="https://www.tiktok.com/@insightuaetech"><i class="laptop:text-lg text-text fa-brands fa-tiktok"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100093161832369"><i class="laptop:text-lg text-text fa-brands fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/insightuaetech"><i class="laptop:text-lg text-text fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map w-full">
+            <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14523.473692318026!2d54.3790891!3d24.4900154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e664565b8a23d%3A0x2434ff54dbf80cfd!2sSalam%20HQ%20Building!5e0!3m2!1sen!2sid!4v1690010968782!5m2!1sen!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-10 border-t border-text tablet:px-20 laptop:px-60 pt-8 grid grid-cols-1 gap-10 laptop:pt-16 relative">
+        <div class="shape hidden laptop:block -z-10 h-full w-1/2 bg-slate-900 absolute left-0"></div>
+        <img class="w-[80px]" src="../Assets/svg/Insight-Logo-Fix.svg" alt="insight-logo">
+        <p class="text-text">&copy; انسايت للذكاء الاصطناعي</p>
+        <div class="info grid grid-cols-1 gap-5 laptop:grid-cols-2 laptop:gap-32">
+            <div class="info-text flex flex-col gap-2">
+                <p class="text-text"><span class="font-semibold">العنوان : </span>Salam HQ Building - Abu Dhabi - United Arab Emirates</p>
+                <p class="text-text"><span class="font-semibold">الايميل : </span>info@eliteworld.tech</p>
+                <p class="text-text"><span class="font-semibold">الهاتف : </span>+970 50 202 0942</p>
+            </div>
+            <ul class="flex flex-col gap-2">
+                <li><a class="text-white duration-100 hover:underline" href="../arabic/home-ar.html">الرئيسية</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="../arabic/about-ar.html">من نحن ؟</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="../arabic/service-ar.html">الدعم الفني</a></li>
+                <li><a class="text-white duration-100 hover:underline" href="../arabic/contact-ar.html">اتصل بنا</a></li>
+            </ul>
+            <div class="sosmed-info flex flex-col gap-2">
+                <h4 class="text-text text-lg">تابعنا</h4>
+                <div class="sosmed">
+                    <ul class="flex gap-4">
+                        <li><a href="https://www.instagram.com/insightuae.tech/"><i class="laptop:text-lg text-text fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/insightuae/"><i class="laptop:text-lg text-text fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://wa.me/970502020942"><i class="laptop:text-lg text-text fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCHq-QO0sQFaQvGKLzjaFjlQ"><i class="laptop:text-lg text-text fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@insightuaetech"><i class="laptop:text-lg text-text fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100093161832369"><i class="laptop:text-lg text-text fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/insightuaetech"><i class="laptop:text-lg text-text fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="text-text p-6 text-center laptop:bg-slate-800">© إنسايت للذكاء الاصطناعي - 2023. العلامات التجارية والشعارات والتصميمات والخدمات والمحتوى الظاهر هنا مملوكة حصريًا لشركة Insight Artificial Intelligence و / أو المرخصين لها وهي محمية. أي نسخ أو توزيع استخدام غير مصرح به يجب أن يجتذب الإجراء المناسب بموجب القانون المعمول به.</p>
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
