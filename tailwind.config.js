@@ -12,7 +12,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        poppins: 'Poppins'
+        poppins: 'Poppins',
+        arabic: 'IBM Plex Sans Arabic'
       },
       colors: {
         box: 'rgba(120, 120, 120, 0.2)',
@@ -28,7 +29,7 @@ module.exports = {
       backgroundImage: {
         'home': "url('../Assets/gif/home-img.gif')",
         'service': "url('../Assets/gif/service-bg.gif')",
-        'wavy': "url('../Assets/gif/wavy-bg.gif')",
+        'wavy': "url('../Assets/gif/wavy-bg-50.gif')",
         'ombaks': "url('../Assets/gif/ombaks-bg.gif')",
         'bumi': "url('../Assets/gif/blubumi-bg.gif')",
         'hole': "url('../Assets/gif/hole-bg.gif')",

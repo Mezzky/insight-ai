@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
 /* Font */
 
 /* TailwindCSS Reset */
@@ -661,16 +663,12 @@ video {
   z-index: -10;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .z-50{
   z-index: 50;
-}
-
-.order-1{
-  order: 1;
-}
-
-.order-2{
-  order: 2;
 }
 
 .float-right{
@@ -1896,6 +1894,10 @@ video {
   background-color: rgb(12 15 22 / var(--tw-bg-opacity));
 }
 
+.bg-black\/60{
+  background-color: rgb(0 0 0 / 0.6);
+}
+
 .bg-box\/80{
   background-color: rgba(120, 120, 120, 0.8);
 }
@@ -1948,7 +1950,7 @@ video {
 }
 
 .bg-wavy{
-  background-image: url('../Assets/gif/wavy-bg.gif');
+  background-image: url('../Assets/gif/wavy-bg-50.gif');
 }
 
 .decoration-slice{
@@ -2138,20 +2140,16 @@ video {
   padding-top: 0.75rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
+.pt-32{
+  padding-top: 8rem;
 }
 
 .pt-5{
   padding-top: 1.25rem;
 }
 
-.pt-52{
-  padding-top: 13rem;
-}
-
-.pt-32{
-  padding-top: 8rem;
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-left{
@@ -2208,6 +2206,10 @@ video {
 
 .align-super{
   vertical-align: super;
+}
+
+.font-arabic{
+  font-family: IBM Plex Sans Arabic;
 }
 
 .font-poppins{
@@ -3032,6 +3034,10 @@ header.scrolled{
     padding-left: 12rem;
   }
 
+  .laptop\:pr-52{
+    padding-right: 13rem;
+  }
+
   .laptop\:pt-16{
     padding-top: 4rem;
   }
@@ -3046,18 +3052,6 @@ header.scrolled{
 
   .laptop\:pt-80{
     padding-top: 20rem;
-  }
-
-  .laptop\:pr-48{
-    padding-right: 12rem;
-  }
-
-  .laptop\:pr-80{
-    padding-right: 20rem;
-  }
-
-  .laptop\:pr-52{
-    padding-right: 13rem;
   }
 
   .laptop\:text-center{
