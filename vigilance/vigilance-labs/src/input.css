@@ -1,0 +1,35 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+/* TailwindCSS Reset */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Main Style */
+.navbar ul li a{
+    @apply text-white duration-100 hover:underline laptop:text-xl;
+}
+
+/* Menu Toggle Animation */
+.hamburger-active > span:nth-child(1) {
+    @apply -rotate-[40deg];
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply w-[35px] rotate-[40deg];
+}
+
+.navbar.slide {
+    @apply visible opacity-100 backdrop-blur-sm;
+}
+
+/* Scrolled Animation */
+header.scrolled {
+    @apply bg-bg/95;
+}
